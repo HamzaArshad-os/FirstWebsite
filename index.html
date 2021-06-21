@@ -1,90 +1,54 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <style>
-        img {
-            max-width: 40%;
-            height: auto;
-          }
-        .blue-text{
-            color:blue;
-            font-size: 300px;
-        }
-        .red-text{
-            color:red;
-            font: x-large;
-            
-        }
-        body{
-            background-color: goldenrod;
-        }
-
-        .ourimg{
-            display: none;
-            width: 100%;
-        }
-        
-        
-            
-        
-    </style>
+<html> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Now how did we get here</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        
+       
+        <link rel="stylesheet" type="text/css" href="F:\VScode stuff\Lets goo.html\CSScontent.css" >
+        
     </head>
     <body>
-        
+      
 
-        <div class="ourimg">
-            <img src="https://th.bing.com/th/id/Rcc161953471c6d5db4491bc79621bc69?rik=lKND4%2bQK6Rz0MQ&pid=ImgRaw" alt="This shoudnt be here">
-            <img src="https://th.bing.com/th/id/OIP.hh0PY0lai6GcwaLxx88mzgHaEP?w=302&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="Cause why the hell not">
-            <img src="https://th.bing.com/th/id/OIP.oqePUALpH-X_9753q07lcQHaJ3?w=139&h=185&c=7&o=5&dpr=1.25&pid=1.7" alt="Because i can">
+      
+
+     
+        <div>
+ 
+            <img class="carousel" src="https://picsum.photos/1000/301">
+            <img class="carousel" src="https://picsum.photos/1000/302">
+            <img  class="carousel"src="https://picsum.photos/1000/303">
+            <img  class="carousel"src="https://picsum.photos/1000/304">
+            <img  class="carousel"src="https://picsum.photos/1000/305">
+            <img  class="carousel"src="https://picsum.photos/1000/306">
             
         </div>
-
-        <script>
-            document.body.innerHTML = "What the fudge isd this"
-            const images = document.querySelectorAll("img"); 
-
-            let i = 0;
-
-            setInterval(function(){
-   
-                images.forEach( (img, i) => {
-                img.style.display = 'none';
-            })
-
-            images[i].style.display = 'block';
-             i++;
-
-            }, 2000);
-
-        </script>
-        
-        <h1>This my <strong class="blue-text">first</strong> website .. It is being posted from my github .. which is pretty cool .. I have a million eyes on me  
+        <button id= "Back_Button" onclick="myFunctiongoBack()">Press to go back</button>
+        <button id= "Forward_Button" onclick="myFunctiongoForward()">Press to go forward</button>
+     
+        <h1>This my <strong class="blue-text">first</strong> website .. It is being posted from my github .. which is pretty cool .. I have a million eyes on me
             and high expectations revolve around me .. no pressure</h1>
         <img src="https://th.bing.com/th/id/OIP.1KKkowK56Rk5AvTQ65sWZQHaKE?pid=ImgDet&rs=1" alt="https://th.bing.com/th/id/OIP.DB2eN0Hat2knOOmO8B0AuQHaCf?pid=ImgDet&rs=1">
         <h1>Why is there a picture of batman here..... Because you cant stop me thats why</h1>
-        <p style= "color:red">  So this is quite intresting , taking some babysteps at first .. and dipping my toes where i belive i wont cry. Never thought this would be so daunting.. And maybe im just continusly typing here 
-            to avoid the continous  , ever growing realsisation that this is going to be painful, How cool i made this red 
+        <p style= "color:red">  So this is quite intresting , taking some babysteps at first .. and dipping my toes where i belive i wont cry. Never thought this would be so daunting.. And maybe im just continusly typing here
+            to avoid the continous  , ever growing realsisation that this is going to be painful, How cool i made this red
         </p>
         <p>This is the point where i realised i need to put this on my github and i have no idea how to do it , If you havent realsied yet I am just trying to fill up the space for now</p>
+        <p>Alos my Personal Statement voila        ----- My name is Hamza i started the Shiftclick course a couple months back in order to get an edge in my skills when i start university this year coming. 
+            I have enjoyed the coourse thus far and looking forward to the full stack course.
+        </p>
         <script src="" async defer></script>
-
-        <p class="red-text"> Anyway how.... this is my Free code camp account  </p><img src="https://th.bing.com/th/id/OIP.n2HUal2uswiaUL7zfa2r3wHaFG?pid=ImgDet&rs=1" alt="Code camp logoshould be here"> 
+        <p class="red-text"> Anyway how.... this is my Free code camp account  </p><img src="https://th.bing.com/th/id/OIP.n2HUal2uswiaUL7zfa2r3wHaFG?pid=ImgDet&rs=1" alt="Code camp logoshould be here">
         <button><a href="https://www.freecodecamp.org/fcc37e67bf0-a712-4e21-bd51-d457423452ca"> links to ffe</a></button>
+        <p class="red-text">My Github account  </p><img src="https://www.bing.com/th?id=OIP.kjCUP06WDUMR88i5wo2SqwHaHa&w=170&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" alt="Github link logo should be here">
+        <button><a href="https://github.com/HamzaArshad-os"> links to my github</a></button>
+        <p class="red-text">My code wars account  </p><img src="https://th.bing.com/th/id/OIP.QipQz9obMHNeYDsl0ZZDDwHaHa?w=150&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="Code wars link logo should be here">
+        <button><a href="https://www.codewars.com/users/LOL4563"> links to my code wars account </a></button>
+     
+        <script src="F:\VScode stuff\Lets goo.html\.vscode\Carouselsarescary.js"></script>
 
-        <p class="red-text">My Github account  </p><img src="https://www.bing.com/th?id=OIP.kjCUP06WDUMR88i5wo2SqwHaHa&w=170&h=160&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2" alt="Github link logo should be here"> 
-        <button><a href="https://github.com/HamzaArshad-os"> links to my github</a></button> 
-
-        <p class="red-text">My code wars account  </p><img src="https://th.bing.com/th/id/OIP.QipQz9obMHNeYDsl0ZZDDwHaHa?w=150&h=180&c=7&o=5&dpr=1.25&pid=1.7" alt="Code wars link logo should be here"> 
-        <button><a href="https://www.codewars.com/users/LOL4563"> links to my code wars account </a></button> 
     </body>
 </html>

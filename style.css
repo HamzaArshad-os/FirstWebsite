@@ -1,0 +1,19 @@
+.blue-text{
+    color:blue;
+    font-size: 300px;
+}
+.red-text{
+    color:red;
+    font: x-large;
+}
+body{
+    background-color: goldenrod;
+}
+.carousel{
+    display: none;
+    width: 100%;
+}
+.carouselbuttons{
+    
+    length:100%;
+}

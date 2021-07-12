@@ -6,6 +6,8 @@ const images = document.querySelectorAll(".carousel");
         
         }, 2000);
 
+        
+
       
       setInterval(myFunctiongoForward, 2000); 
       var myFunctiongoBack = function(){//works
@@ -32,5 +34,21 @@ const images = document.querySelectorAll(".carousel");
         images[0].style.display = 'block';
         i = 0;
       }
+
       
     }
+
+    document.addEventListener('keydown',logkey);
+        function logkey(e){
+          log.textContent += `${e.code}`;
+          console.log(e.code)
+          
+          if(e.code === "ArrowRight"){
+            console.log("fbfs ba")
+            myFunctiongoForward()
+          }
+          if(e.code === "ArrowLeft"){
+            console.log("helloofd v")
+            myFunctiongoBack()
+          }
+        }

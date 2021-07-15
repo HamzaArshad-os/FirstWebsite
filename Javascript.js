@@ -41,14 +41,14 @@ const images = document.querySelectorAll(".carousel");
     document.addEventListener('keydown',logkey);
         function logkey(e){
           log.textContent += `${e.code}`;
-          console.log(e.code)
+        
           
           if(e.code === "ArrowRight"){
-            console.log("fbfs ba")
+         
             myFunctiongoForward()
           }
           if(e.code === "ArrowLeft"){
-            console.log("helloofd v")
+          
             myFunctiongoBack()
           }
         }

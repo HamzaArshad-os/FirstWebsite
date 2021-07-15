@@ -40,7 +40,7 @@ const images = document.querySelectorAll(".carousel");
 
     document.addEventListener('keydown',logkey);
         function logkey(e){
-          log.textContent += `${e.code}`;
+          textContent += `${e.code}`;
         
           
           if(e.code === "ArrowRight"){

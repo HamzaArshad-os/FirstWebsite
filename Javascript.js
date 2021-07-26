@@ -40,15 +40,15 @@ const images = document.querySelectorAll(".carousel");
 
     document.addEventListener('keydown',logkey);
         function logkey(e){
-          textContent += `${e.code}`;
-        
+          log.textContent;
+          
           
           if(e.code === "ArrowRight"){
-         
+            
             myFunctiongoForward()
           }
           if(e.code === "ArrowLeft"){
-          
+         
             myFunctiongoBack()
           }
         }
